@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter Medium";
+  src: url("../fonts/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* :root {
+    --inter-regular: 400;
+    --inter-medium: 500;
+    --inter-semiBold: 600;
+    font-family: "Inter", sans-serif;
+} */
+
+/* All header styles */
+h1 {
+  font-family: "Inter";
+  font-size: 94px;
+  line-height: 130%;
+  letter-spacing: -2.5px;
+}
+
+h2 {
+  font-family: "Inter";
+  font-size: 60px;
+  line-height: 130%;
+  letter-spacing: -1.5px;
+}
+
+h3 {
+  font-family: "Inter";
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 0px;
+}
+
+h4 {
+  font-family: "Inter";
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: 0.25px;
+}
+
+h5 {
+  font-family: "Inter Medium";
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0px;
+}
+
+h6 {
+  font-family: "Inter Medium";
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.15px;
+}
+
+/* Subtitles Styles */
+.subtitle-1 {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: .15px;
+}
+
+.subtitle-2 {
+  font-family: "Inter Medium";
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+}
+
+/* All titles Styles */
+.title-xl {
+  font-family: "Inter Medium";
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.title-lg {
+  font-family: "Inter Medium";
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.title-md {
+  font-family: "Inter Medium";
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.title-sm {
+  font-family: "Inter Medium";
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.title-xs {
+  font-family: "Inter Medium";
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.title-xxs {
+  font-family: "Inter Medium";
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+/* Body Styles */
+.body-1 {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: -1.5px;
+}
+
+.body-2 {
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.body-3 {
+  font-family: "Inter";
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+}
+
+.body-4 {
+  font-family: "Inter";
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+}
+
+caption {
+  font-family: "Inter";
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.5px;
+}
+
+.overline {
+  font-family: "Inter";
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 1px;
+}
