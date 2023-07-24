@@ -24,11 +24,6 @@ const f7params = {
         transition: "f7-cover",
       },
     },
-    {
-      name: "test",
-      path: "/test",
-      component: Profile,
-    },
   ],
   store: { store },
 };

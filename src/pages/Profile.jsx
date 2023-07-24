@@ -4,7 +4,6 @@ import * as F7 from "framework7-react";
 import { f7 } from "framework7-react";
 
 import store from "../store";
-
 import InputLabel from "../components/InputLabel";
 
 const Profile = (props) => {
@@ -79,11 +78,6 @@ const Profile = (props) => {
 
   const goBackToHome = () => {
     f7.views.main.router.navigate(`/`);
-
-    // props.f7router.navigate({
-    //   name: "home",
-    //   path: "/",
-    // });
   };
 
   // converting required date format
@@ -122,7 +116,6 @@ const Profile = (props) => {
         </div>
 
         {/* form starts */}
-
         <F7.Block>
           <form onSubmit={handleSubmit} className="relative mt-32">
             <div className="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
@@ -216,13 +209,6 @@ const Profile = (props) => {
 
               {/* file upload start */}
               <div className="border-2 border-gray-500 border-dashed px-6 pt-5 pb-6">
-                {/* <div className="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
-                <div className="text-center">
-                  <div className="flex text-sm text-gray-600">
-                    
-                  </div>
-                </div>
-              </div> */}
                 <label
                   className="block text-sm font-medium text-gray-800"
                   htmlFor="file_input"

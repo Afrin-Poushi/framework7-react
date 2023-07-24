@@ -3,11 +3,9 @@ import { Page, Navbar, Card } from "framework7-react";
 import * as F7 from "framework7-react";
 
 import store from "../store";
-
 import UserInfo from "../components/UserInfo";
 
 const Dashboard = () => {
-  // const [users, setUsers] = useState([]);
   const [userInfoLoaded, setUserInfoLoaded] = useState(false);
 
   // retrieve "users" getter handler value. Initially empty array

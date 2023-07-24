@@ -1,16 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import * as F7 from "framework7-react";
 import { f7 } from "framework7-react";
 
 const UserInfo = (props) => {
-  // const [users, setUsers] = useState([]);
-
   let users = props.userData;
 
   const handleClick = (e, id) => {
     // f7.view[0].router.navigate(`/profile/${id}`);
+
     f7.views.main.router.navigate(`/profile/${id}`);
-    // window.history.pushState(null, null, `/profile/${id}`);
 
     // f7.views.main.router.navigate({
     //   name: "profile",
@@ -76,9 +74,6 @@ const UserInfo = (props) => {
                 className="icon-btn red-btn"
                 IconColor={"red"}
                 onClick={openConfirm}
-                // on_click={(action = "Delete", id = user.id) =>
-                //   handleClick(action, id)
-                // }
               >
                 <i className="f7-icons icon-size">trash_fill</i>
               </F7.Button>

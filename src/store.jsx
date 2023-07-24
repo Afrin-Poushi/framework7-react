@@ -19,7 +19,7 @@ const store = createStore({
       const response = await fetch("https://dummyjson.com/users");
       const data = await response.json();
       const users = data.users;
-      console.log("inside store users", users);
+      console.log("inside store users:", users);
 
       //update the state
       state.users.push(...users);
@@ -33,7 +33,7 @@ const store = createStore({
       // fetch userid details from API
       const response = await fetch(`https://dummyjson.com/users/${userId}`);
       const data = await response.json();
-      console.log(`profile detailes ${userId}`, data);
+      console.log(`profile detailes: ${userId}`, data);
 
       // update the state
       state.profileData.push(data);
