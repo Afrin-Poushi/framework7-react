@@ -1,0 +1,39 @@
+.small-image {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.phone-number {
+    white-space: nowrap;
+}
+
+.icon-btn {
+    padding: 4px !important;
+    margin-right: 3px !important;
+}
+
+.primary-btn {
+    @apply bg-primary !important;
+}
+.primary-light-btn {
+    @apply bg-primary-light !important;
+}
+
+.red-btn {
+    @apply bg-red !important;
+}
+
+.mt-32 {
+    margin-top: 128px !important;
+}
+
+.primary-border {
+    @apply border-primary !important;
+}
